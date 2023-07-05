@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name="TestFB">
+    <classes>
+      <class name="serially_pararallyTestNG.OpenFb"/>
+     
+    </classes>
+  </test> <!-- Test -->
+   <test  name="TestINSTA">
+    <classes>
+      
+      <class name="serially_pararallyTestNG.OpenInsta"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Testtwitter">
+    <classes>
+      <class name="serially_pararallyTestNG.OpenTwitter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
