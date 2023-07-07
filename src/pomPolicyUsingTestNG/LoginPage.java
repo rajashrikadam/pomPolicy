@@ -26,18 +26,18 @@ public class LoginPage
   {
 	  signButtonHomePage.click();
   }
-  public void mobileNumberField(String mobNum)
+  public void mobileNumberField()
   {
-	  mobileNumberField.sendKeys(mobNum);
+	  mobileNumberField.sendKeys("9623153925");
   }
   public void signWithPass() 
   
   {
 	  signWithPass.click();
   }
-  public void passWordField(String pwd)
+  public void passWordField()
   {
-	  passWordField.sendKeys(pwd);
+	  passWordField.sendKeys("raju@2811");
   }
   public void signButton()
   {

@@ -42,7 +42,7 @@ public class ValidatePolicyUserName
 	   login.passWordField();
 	   driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 	   login.signButton();
-	   driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+	   driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
 	   login.myAccount();
 	   driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 	   login.myProfile();

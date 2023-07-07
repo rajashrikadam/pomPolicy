@@ -5,7 +5,7 @@
     <classes>
       <class name="dataProvidersUse.ValidateUserNameUsingDataProviderTest">
         <methods>
-          <include name="verifyUserName" invocation-numbers="0"/>
+          <include name="verifyUserName" invocation-numbers="1"/>
           <include name="logoutFromPolicyBzar"/>
           <include name="loginToPolicyBazaar"/>
         </methods>

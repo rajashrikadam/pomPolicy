@@ -35,11 +35,11 @@ public class ValidateUserNameUsingDataProviderTest
 	  CommonMethods_1.implicitWait(driver, 1000);
 	  login.signButtonHomePage();
 	  CommonMethods_1.implicitWait(driver, 1000);
-	  login.mobileNumberField(mobNum);
+	  login.mobileNumberField();
 	  CommonMethods_1.implicitWait(driver, 1000);
 	  login.signWithPass();
 	  CommonMethods_1.implicitWait(driver, 1000);
-	  login.passWordField(pwd);
+	  login.passWordField();
 	  CommonMethods_1.implicitWait(driver, 1000);
 	  login.signButton();
 	  CommonMethods_1.implicitWait(driver, 1000);

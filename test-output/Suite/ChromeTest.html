@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 28 15:47:03 IST 2023</td>
+<td>Started on:</td><td>Wed Jul 05 15:04:43 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16643 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3199 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='crossBrowser.CrossBrowserTesting.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: crossBrowser.CrossBrowserTesting<br>Parameters: Chrome</td>
-<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at crossBrowser.CrossBrowserTesting.crossBrowserTest(CrossBrowserTesting.java:59)
+<td title='crossBrowser.CrossBrowserTesting.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: crossBrowser.CrossBrowserTesting<br>Parameters: fireFOX</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no &apos;moz:firefoxOptions.binary&apos; capability provided, and no binary flag set on the command line 
+Host info: host: &apos;RAJASHRI&apos;, ip: &apos;192.168.0.104&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;b19b418e60&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at crossBrowser.CrossBrowserTesting.crossBrowserTest(CrossBrowserTesting.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564143446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace564143446'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at crossBrowser.CrossBrowserTesting.crossBrowserTest(CrossBrowserTesting.java:59)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1690294013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1690294013'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no &apos;moz:firefoxOptions.binary&apos; capability provided, and no binary flag set on the command line 
+Host info: host: &apos;RAJASHRI&apos;, ip: &apos;192.168.0.104&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;b19b418e60&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at crossBrowser.CrossBrowserTesting.crossBrowserTest(CrossBrowserTesting.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,7 +152,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>16</td>
+<td>3</td>
 <td>crossBrowser.CrossBrowserTesting@8519cb4</td></tr>
 </table><p>
 </body>
